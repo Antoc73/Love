@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon site</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+
+    <style>
+        .lavishly-yours-regular {
+            font-family: "Lavishly Yours", cursive;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        html{
+            scrollbar-width: none;
+            overflow-x: hidden;
+        }
+
+        body {
+            margin: 0;
+            background-color: #f1dfdf;
+            font-family: "Lavishly Yours", cursive;
+            color: #662929;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 7vw;
+            text-align: center;
+        }
+
+        p {
+            font-size: 5vw;
+        }
+
+        /* =========================
+           IMAGES
+        ========================= */
+
+        .bg,
+        .fleur,
+        .top,
+        .left,
+        .right,
+        .bottom {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .bg {
+            top: 0;
+            z-index: 1;
+        }
+
+        .fleur {
+            top: 0;
+            z-index: 10;
+            transition: transform 1s ease;
+        }
+
+        .fleur.move {
+            transform: translateX(20vw);
+        }
+
+        .top {
+            top: 0;
+            z-index: 7;
+            transform-origin: center 15.88vw;
+            transition: transform 1s ease;
+        }
+
+        .top.retourne {
+            transform: scaleY(-1);
+        }
+
+        .left {
+            top: 0;
+            z-index: 5;
+            transform-origin: 9.7vw center;
+            transition: transform 1s ease;
+        }
+
+        .left.retourne {
+            transform: scaleX(-1);
+        }
+
+        .right {
+            top: 0;
+            z-index: 5;
+            transform-origin: 90vw center;
+            transition: transform 1s ease;
+        }
+
+        .right.retourne {
+            transform: scaleX(-1);
+        }
+
+        .bottom {
+            top: 0;
+            opacity: 0;
+            z-index: 6;
+            transform-origin: center 65.88vw;
+            transition: transform 1s ease;
+        }
+
+        .bottom.retourne {
+            transform: scaleY(-1);
+        }
+
+        /* =========================
+           CONTENT
+        ========================= */
+
+        .content {
+            box-sizing: border-box;
+
+            padding: 8vw;
+            position: relative;
+
+            width: 80vw;
+            margin-left: 9.9vw;
+            margin-top: 16vw;
+
+            height: 49vw;
+
+            z-index: 4;
+
+            background-color: white;
+
+            overflow: hidden;
+
+            transition: height 10s ease;
+        }
+
+        /* =========================
+           SCRIPT
+        ========================= */
+    </style>
+</head>
+
+<body>
+
+    <!-- Images indépendantes -->
+
+    <img class="bg" src="img/bg.png">
+    <img class="fleur" src="img/fleur.png">
+
+    <img class="top" src="img/top.png">
+    <img class="left" src="img/left.png">
+    <img class="right" src="img/right.png">
+    <img class="bottom" src="img/bottom.png">
+
+
+    <!-- Content indépendant -->
+
+    <div class="content">
+
+        <h1>Mon ange Emma</h1>
+
+        <p>
+            Je ne sais jamais ce que tu penses, j'en ai peur, terriblement... 
+
+            Le lien qu'on appelle amour est puissant, sans égal, et pourtant si fragile.
+
+            j'ai peur... peur que tu doutes de tes sentiments, les miens pourtant m'apparraissent évidents.
+        </p><p>
+
+
+            mais même si je ne comprend pas tout, même si parfois je suis bléssé, je veux vivre avec toi, vivre en faisant de mon mieux, apprendre et m'améliorer, pour peu être qu'un jour je puisse être ton homme idéal. C'est difficile pour un moldu comme moi de mériter une divinité comme toi, mais je ferai de mon mieux !
+
+            Chaque sourir, chaque moment passé avec toi me donne un peu plus encore envie de prolongé ce paradis, je ne veux pas qu'il y ai de fin...
+
+            admirer tes yeux, tenir tes mains, t'embrasser....
+
+            Tu es tout ce dont j'ai besoin, et j'aimerai te donner un jour autant que tu me donnes.
+
+            </p><p>
+
+            Tu me manque, tu me manque tellement...
+
+            Je veux pouvoir te voir, sentir tes mains, tes levres, ton corp...
+            Je veux profiter de chaque instant, rigoler, voyager, t'embrasser...
+
+            Découvrir avec toi ce que le monde à encore a offrir, et pleurer avec toi ce que ce monde deplore, c'est avec toi et seulement toi que je veux vivre.
+
+            </p><p>
+
+            Je ne sais pas ce que l'avenir nous réserve, et c'est peut-être ça qui me fait le plus peur. On ne peut pas savoir combien de temps durera un bonheur, ni ce que la vie placera sur notre chemin. Mais malgré toutes mes peurs, s'il y a une chose dont je suis certain, c'est que je veux avancer avec toi.
+
+            Je ne veux pas seulement être là lorsque tout va bien. Je veux être là lorsque tu doutes, lorsque tu es triste, lorsque tu es fatiguée, lorsque le monde te semble trop lourd. Je veux pouvoir être la personne vers qui tu te tournes lorsque tu as besoin de parler, mais aussi celle avec qui tu peux simplement rester silencieuse, sans avoir besoin de dire quoi que ce soit.
+
+                </p><p>
+
+            Je veux toi.
+
+            Je veux nous.
+
+            Je veux continuer à te découvrir, continuer à t'aimer, continuer à apprendre à tes côtés.
+
+            Et si la vie m'en laisse la chance, je veux un jour pouvoir regarder en arrière et me dire que la plus belle chose que j'ai faite, c'est d'avoir construit cette vie avec toi.
+
+            Parce que parmi toutes les personnes que j'aurais pu rencontrer dans ce monde immense, c'est toi que j'ai rencontrée.
+
+            Et parmi toutes les directions que ma vie aurait pu prendre, c'est auprès de toi que j'ai envie d'aller.
+
+            </p><p> 
+
+            Je t'aime
+                </p><p>
+            Antonin
+
+
+        </p>
+
+    </div>
+
+
+    <script>
+        const imgTop = document.querySelector(".top");
+        const imgBottom = document.querySelector(".bottom");
+        const imgRight = document.querySelector(".right");
+        const imgLeft = document.querySelector(".left");
+        const imgFleur = document.querySelector(".fleur");
+        const content = document.querySelector(".content");
+
+        let animationEnCours = false;
+
+
+        document.addEventListener("click", function () {
+
+            if (animationEnCours) {
+                return;
+            }
+
+            animationEnCours = true;
+
+
+            /* =========================
+            FERMETURE
+            ========================= */
+
+            if (content.dataset.deplie === "true") {
+                /*
+                // Fixe la hauteur actuelle
+                content.style.height = content.scrollHeight + "px";
+
+                // Force le navigateur à prendre en compte la hauteur
+                content.offsetHeight;
+
+                // Animation vers 40vw
+                content.style.height = "50vw";
+
+
+                // 1 seconde après : images
+                setTimeout(function () {
+
+                    imgTop.classList.remove("retourne");
+                    imgBottom.classList.remove("retourne");
+                    imgRight.classList.remove("retourne");
+                    imgLeft.classList.remove("retourne");
+                    imgFleur.classList.remove("move");
+
+                }, 0);
+
+
+                content.dataset.deplie = "false";
+
+
+                setTimeout(function () {
+                    animationEnCours = false;
+                }, 1000);
+                */
+            }
+
+
+            /* =========================
+            OUVERTURE
+            ========================= */
+
+            else {
+
+                // Hauteur naturelle du contenu
+                const hauteur = content.scrollHeight;
+
+                // Départ à 40vw
+                content.style.height = "50vw";
+
+                // Force le navigateur à appliquer 40vw
+                content.offsetHeight;
+
+                // Animation vers la hauteur réelle
+                content.style.height = hauteur + "px";
+
+
+                // Images immédiatement
+                imgTop.classList.add("retourne");
+                imgBottom.classList.add("retourne");
+                imgRight.classList.add("retourne");
+                imgLeft.classList.add("retourne");
+                imgFleur.classList.add("move");
+
+
+                // 1 seconde après
+                setTimeout(function () {
+
+                    content.dataset.deplie = "true";
+
+                    // Permet au contenu de continuer à grandir naturellement
+                    content.style.height = "auto";
+
+                }, 10000);
+
+
+                setTimeout(function () {
+                    animationEnCours = false;
+                }, 1000);
+            }
+
+        });
+    </script>
+
+</body>
+</html>
